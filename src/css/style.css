@@ -1,0 +1,35 @@
+html,
+body,
+#main-area,
+.main-container {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  background-color: #f6fcff;
+}
+
+body #main-area .main-container .main-wrapper #img-gif {
+  width: 180px;
+  height: 180px;
+}
+
+body #main-area .main-container .main-wrapper .text-wrapper {
+  height: 75px;
+}
+
+body #main-area .main-container .main-wrapper .text-wrapper #text {
+  font-size: 18px;
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
