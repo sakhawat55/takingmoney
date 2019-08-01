@@ -1,6 +1,6 @@
 function takingMoney(){
   var taka = document.getElementById("taka").value;
-  if(taka == ""){
+  if(taka == "" || taka<0){
     document.getElementById("img-gif").setAttribute("src","src/img/0.gif");
   }
   else if(taka == 0){
