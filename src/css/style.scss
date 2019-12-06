@@ -21,9 +21,13 @@ body{
   #main-area{
     .main-container{
       .main-wrapper{
-        #img-gif{
+        .img-gif{
           width: 180px;
           height: 180px;
+          display: none;
+        }
+        .img-gif.a{
+          display: block;
         }
         .text-wrapper{
           height: 75px;

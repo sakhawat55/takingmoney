@@ -19,9 +19,14 @@ body {
   background-color: #f6fcff;
 }
 
-body #main-area .main-container .main-wrapper #img-gif {
+body #main-area .main-container .main-wrapper .img-gif {
   width: 180px;
   height: 180px;
+  display: none;
+}
+
+body #main-area .main-container .main-wrapper .img-gif.a {
+  display: block;
 }
 
 body #main-area .main-container .main-wrapper .text-wrapper {
