@@ -25,7 +25,7 @@ body #main-area .main-container .main-wrapper .img-gif {
   display: none;
 }
 
-body #main-area .main-container .main-wrapper .img-gif.a {
+body #main-area .main-container .main-wrapper .img-gif:first-child {
   display: block;
 }
 
